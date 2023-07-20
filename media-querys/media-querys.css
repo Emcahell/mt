@@ -1,0 +1,66 @@
+@media (min-width: 900px){
+    header{
+        background: rgb(20, 0, 136);
+    }
+}
+                                        /*  9 0 0 PX   */
+@media (max-width: 900px){
+    .cont-carrera-musical-info-personal{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        /* flex-wrap: nowrap; */
+    }
+
+    .carrera-musical{
+        max-width: 95%;
+    }
+
+    .cont-info-personal{
+        width: 50%;
+    }
+}
+                                        /*  8 0 0 PX */
+@media (max-width: 800px){
+    .titulo{
+        font-size: 1.675rem;
+    }
+}
+                                        /*  5 0 0 PX */
+@media (max-width: 500px){
+
+    .logo{
+        width: 4.25rem;
+    }
+
+    .cont-info-personal{
+        width: 70%;
+    }
+}
+                                      /*  4 0 0 PX  */
+@media (max-width: 400px){
+    .titulo{
+        width: 80vw;
+    }
+
+    .redes-sociales{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 50%;
+        height: 50%;
+        margin-right: 1.25rem;
+        font-size: 0.625rem;
+    }
+
+    .rs,
+    .icon-flecha{
+        display: none;
+    }
+    
+    .icon{
+        margin-right: 1rem;
+        font-size: 0.875rem;
+    }
+}

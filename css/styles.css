@@ -1,0 +1,219 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    overflow-X: hidden;
+    background: rgb(241, 241, 241);
+}
+
+header{
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 4.375rem;
+    box-shadow: 0rem 0.1875rem 0.4375rem;
+    background: linear-gradient(60deg, rgb(20, 0, 136), rgb(127, 4, 165))
+}
+
+.cont-logo{
+    width: 50%;
+    height: 50%;    
+}
+.logo{
+    width: 6.25rem;
+    height: 100%;
+    margin-left: 1.25rem;
+}
+
+.rs{
+    color: #7d7fff; 
+}
+
+.redes-sociales{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    margin-right: 1.25rem;
+    font-size: 0.725rem;
+}
+
+.icon{
+    font-size: 1rem;
+    color: white;
+    border-radius: 50%;
+    box-shadow: 0.0625rem 0.0625rem 0.25rem rgb(0, 0, 0), -0.0625rem -0.0625rem 0.25rem black;
+    transition: .2s;
+}
+.icon:hover{
+    font-size: 2.1875rem;
+}
+.icon-flecha{
+    color: #7d7fff;
+}
+
+.cont-biografia,
+.biografia,
+.carrera-musical,
+.trabajos-discograficos
+.efdp,
+.emb,
+.pme,
+.lyke-mike,
+.sweetysour,
+.icyhot,
+.lveu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 2.5rem;
+}
+.cont-carrera-musical-info-personal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-bottom: 2.5rem;
+}
+.carrera-musical{
+    max-width: 66%;
+}
+
+.titulo{
+    width: 70vw;
+    /* width: 28.125rem; */
+    /* height: 40px; */
+    margin-top: 15.625rem;
+    margin-bottom: 4.375rem;
+    font-size: 1.875rem;
+    text-align: center;
+    border-bottom: 0.125rem solid orangered;
+}
+
+.cont-img-myke{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15vh;
+}
+.img-myke{
+    display: block;
+    width: 60%;
+    border-radius: 0.3125rem;
+    outline-offset: 0.625rem;
+    outline: 0.094rem solid rgb(0, 0, 0);
+}
+
+
+.titulo-biografia,
+.titulo-carrera-musical{
+    width: 100vw;   
+    height: 2.1875rem;
+    text-align: center;
+    border-bottom: 0.1875rem solid bisque;
+}
+.title-efdp,
+.title-emb,
+.title-pme,
+.title-lm,
+.title-sys,
+.title-icy-hot,
+.title-lveu{
+    width: 70%;
+    font-weight: bolder;
+    border-bottom: 0.125rem solid orangered;
+}
+
+.p-cont{
+    width: 90%;
+    line-height: 1.5625rem;
+    font-size: 1rem;
+}
+
+.cont-info-personal{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 29%;
+    height: auto;
+    margin-bottom: 4.375rem;
+    border-radius: 0.625rem;
+    border: 0.3125rem solid rgba(97, 70, 252, 0.836);
+    background: rgba(113, 87, 255, 0.479);
+}
+.cont-title-info-personal{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 1.875rem;
+    margin-top: 1.25rem;
+    margin-bottom: 3.125rem;
+}
+.titulo-info-personal{
+    width: 90%;
+    height: 1.4375rem;
+    border-radius: 0.625rem;
+    margin-top: 0.9375rem;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 1.4375rem;
+    background: rgba(255, 68, 0, 0.596);
+}
+
+.tabla-info-personal{
+    width: 90%;
+    height: 6.25rem;
+    border-collapse: collapse;
+    font-size: 0.9375rem;
+}
+td, th{
+    border: 1px solid rgba(2, 0, 148, 0.815);
+    border-right: 0.0625rem solid transparent;
+    border-left: 0.0625rem solid transparent;
+    text-align: center;
+}
+
+.curiosidades{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    margin-bottom: 3.125rem;
+    padding-top: 3.125rem;
+    background: rgba(25, 0, 255, 0.096);
+    box-shadow: -1.25rem -3.125rem 3.125rem rgba(25, 0, 255, 0.096), 985px -50px 50px rgba(25, 0, 255, 0.096),
+    -1.25rem 3.125rem 3.125rem rgba(25, 0, 255, 0.096), 985px 50px 50px rgba(25, 0, 255, 0.096);
+}
+.title-curiosidades{
+    width: 100%;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    margin-top: 0.125rem;
+    margin-bottom: 3.125rem;
+    border-bottom: 0.1875rem solid orangered;
+    text-align: center;
+}
+
+.lista{
+    width: 50%;
+    height: 100%;
+    border-left: 0.125rem solid rgba(255, 68, 0, 0.473);
+}
+
+.footer{
+    width: 100%;
+    height: 25rem;
+    color: white;
+    text-align: center;
+    background: black;
+    font-family: 'Ubuntu', sans-serif;
+}
+.info-footer{
+    font-size: 0.813rem;
+    padding-top: 6.25rem;
+}
