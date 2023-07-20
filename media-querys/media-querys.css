@@ -20,6 +20,10 @@
     .cont-info-personal{
         width: 50%;
     }
+
+    .p-cont{
+        font-size: 0.875rem;
+    }
 }
                                         /*  8 0 0 PX */
 @media (max-width: 800px){
@@ -36,6 +40,10 @@
 
     .cont-info-personal{
         width: 70%;
+    }
+
+    .p-cont{
+        font-size: 0.75rem;
     }
 }
                                       /*  4 0 0 PX  */
