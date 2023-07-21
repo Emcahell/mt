@@ -2,6 +2,26 @@
     header{
         background: rgb(20, 0, 136);
     }
+    .cont-img-myke{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        flex-wrap: nowrap;
+        overflow: scroll;
+    }
+    .img-myke{
+        width: 50%;
+        height: 500px;
+    }
+    .cont-img-myke::-webkit-scrollbar{
+        width: 1px;
+        height: 10px;
+    }
+    .cont-img-myke::-webkit-scrollbar-thumb{
+        border-radius: 30px;
+        background: orangered;
+        box-shadow: 0 5px 10px black;
+    }
 }
                                         /*  9 0 0 PX   */
 @media (max-width: 900px){

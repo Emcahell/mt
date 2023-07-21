@@ -97,17 +97,23 @@ header{
 .cont-img-myke{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    overflow: scroll;
     margin-bottom: 15vh;
+}
+.cont-img-myke::-webkit-scrollbar{
+    width: 1px;
+    background: none;
 }
 .img-myke{
     display: block;
     width: 90%;
-    border-radius: 0.3125rem;
-    outline-offset: 0.625rem;
-    outline: 0.094rem solid rgb(0, 0, 0);
+    margin-left: 1%;
+    border-radius: 0.5125rem;
+    /* outline-offset: 0.625rem; */
+    /* outline: 0.094rem solid rgb(0, 0, 0); */
 }
-
 
 .titulo-biografia,
 .titulo-carrera-musical{
