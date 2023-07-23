@@ -115,6 +115,17 @@ header{
     /* outline: 0.094rem solid rgb(0, 0, 0); */
 }
 
+.see-img{
+    /* position: absolute;
+    top: 870px; */
+    width: auto;
+    height: auto;
+    margin-top: -123px;
+    padding: 6px;
+    border-radius: 10px;
+    background: #00000033;
+}
+
 .titulo-biografia,
 .titulo-carrera-musical{
     width: 100vw;   
