@@ -51,7 +51,8 @@ header{
 .icon:hover{
     font-size: 2.1875rem;
 }
-.icon-flecha{
+.icon-flecha,
+.icon-flecha2{
     color: #7d7fff;
 }
 
