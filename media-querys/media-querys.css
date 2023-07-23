@@ -41,7 +41,8 @@
         width: 50%;
     }
 
-    .p-cont{
+    .p-cont,
+    li{
         font-size: 0.875rem;
     }
 }
@@ -62,7 +63,8 @@
         width: 70%;
     }
 
-    .p-cont{
+    .p-cont,
+    li{
         font-size: 0.75rem;
     }
 }
@@ -85,6 +87,7 @@
     .rs,
     .icon-flecha{
         display: none;
+        color: transparent;
     }
     
     .icon{
