@@ -1,7 +1,8 @@
 @media (min-width: 900px){
     header{
-        background: rgb(20, 0, 136);
+        background: lightseagreen;
     }
+
     .cont-img-myke{
         display: flex;
         align-items: center;
@@ -30,7 +31,6 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
-        /* flex-wrap: nowrap; */
     }
 
     .carrera-musical{
@@ -55,8 +55,9 @@
                                         /*  5 0 0 PX */
 @media (max-width: 500px){
 
-    .logo{
-        width: 4.25rem;
+    header{
+        font-size: 13px;
+        letter-spacing: 2px;
     }
 
     .cont-info-personal{
@@ -70,18 +71,9 @@
 }
                                       /*  4 0 0 PX  */
 @media (max-width: 400px){
+
     .titulo{
         width: 80vw;
-    }
-
-    .redes-sociales{
-        display: flex;
-        justify-content: flex-end;
-        align-items: center;
-        width: 50%;
-        height: 50%;
-        margin-right: 1.25rem;
-        font-size: 0.625rem;
     }
 
     .rs,
@@ -90,8 +82,4 @@
         color: transparent;
     }
     
-    .icon{
-        margin-right: 1rem;
-        font-size: 0.875rem;
-    }
 }
